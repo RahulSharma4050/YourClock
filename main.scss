@@ -1,0 +1,154 @@
+:root{
+    --primary-color:#aa27dd;
+}
+
+body{
+
+    background: #f2f2f2;
+    margin:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.navbar{
+  background: white;
+  padding: 0.9em;
+
+   .logo{
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    font-size: 1.2em;
+    
+     span{
+        color:var(--primary-color);
+     }
+
+   }
+}
+
+.navbar .container{
+    display: grid;
+    grid-template-columns: 180px auto;
+    justify-content: unset;
+}
+
+.navbar nav{
+    display: flex;
+    justify-content: space-between;
+    background:none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+
+    ul{
+        display : flex
+    }
+
+    a {
+        color: black;
+        font-size: 1em;
+        padding : .1em 1em;
+    }
+
+    ul.primary-nav{
+        margin:0;
+    }
+
+}
+
+a {
+    color:#444444;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+
+}
+
+ul.li{  
+    margin-right: 15px;  
+ }
+
+h3, p{
+    text-align: center;
+}
+
+// .hero{
+//     text-align:center;
+// }
+
+iframe{
+    width:450px;
+    height: 300px;
+
+}
+
+@media only screen and (min-width:585px){
+
+iframe
+{
+    width:100%;
+    height: 300px;
+}
+
+}
+ 
+
+.footer-sec{
+    background: whitesmoke;
+
+}
+
+label{
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: .5em;
+}
+
+input,textarea{
+    width: 390px;
+    padding : .8em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color:lightslategray;
+    color:white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    border-radius: 5em;
+    display: inline-block;
+     padding: .8em 2em;
+     width:unset;
+     cursor: pointer;
+}
+
+// .contact-right-img{
+   
+//     width: max-content;
+//     height:max-content
+// }
+
+
+.contact-left,.contact-right{
+    height: 100%;
+    width: 50%;
+    position: flex;
+    z-index: 1;
+    top: 0;
+    
+    padding-top: 20px;
+  }
+
+ 
